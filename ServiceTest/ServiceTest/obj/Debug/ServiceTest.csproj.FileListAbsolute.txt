@@ -1,0 +1,6 @@
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\ServiceTest\ServiceTest\obj\Debug\ServiceTest.csprojResolveAssemblyReference.cache
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\ServiceTest\ServiceTest\bin\ServiceTest.dll.config
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\ServiceTest\ServiceTest\bin\ServiceTest.dll
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\ServiceTest\ServiceTest\bin\ServiceTest.pdb
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\ServiceTest\ServiceTest\obj\Debug\ServiceTest.dll
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\ServiceTest\ServiceTest\obj\Debug\ServiceTest.pdb

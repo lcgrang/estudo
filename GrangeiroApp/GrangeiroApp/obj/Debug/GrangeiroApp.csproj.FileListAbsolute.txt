@@ -1,0 +1,6 @@
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\GrangeiroApp\GrangeiroApp\bin\Debug\GrangeiroApp.exe.config
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\GrangeiroApp\GrangeiroApp\bin\Debug\GrangeiroApp.exe
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\GrangeiroApp\GrangeiroApp\bin\Debug\GrangeiroApp.pdb
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\GrangeiroApp\GrangeiroApp\obj\Debug\GrangeiroApp.csprojResolveAssemblyReference.cache
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\GrangeiroApp\GrangeiroApp\obj\Debug\GrangeiroApp.exe
+c:\users\lgrangeiro.mpagg\documents\visual studio 2013\Projects\GrangeiroApp\GrangeiroApp\obj\Debug\GrangeiroApp.pdb

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/ServiceTest" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ServiceTest" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:59012/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="CompositeType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BoolValue" type="xs:boolean" />
+      <xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CompositeType" nillable="true" type="tns:CompositeType" />
+  <xs:complexType name="CreateOrderRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AmountInCents" type="xs:int" />
+      <xs:element minOccurs="0" name="CreditCardNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HolderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MerchantKey" type="ser:guid" />
+      <xs:element minOccurs="0" name="OrderNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecurityCode" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CreateOrderRequest" nillable="true" type="tns:CreateOrderRequest" />
+  <xs:complexType name="CreateOrderResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AmountInCents" type="xs:int" />
+      <xs:element minOccurs="0" name="CreditCardNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ErrorDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HolderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MerchantKey" type="ser:guid" />
+      <xs:element minOccurs="0" name="OrderKey" type="ser:guid" />
+      <xs:element minOccurs="0" name="Success" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CreateOrderResponse" nillable="true" type="tns:CreateOrderResponse" />
+</xs:schema>
